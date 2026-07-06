@@ -228,7 +228,7 @@ html,body,[class*="css"]{font-family:'Space Grotesk',sans-serif!important;}
 [data-theme="light"] [data-testid="stFileUploaderDropzone"] { background: #d0ecec !important; border-color: #80cccc !important; }
 [data-theme="light"] [data-testid="stFileUploaderDropzone"] > div { background: #d0ecec !important; }
 [data-theme="light"] .stFileUploader * { color: #007a7a !important; }
-[data-theme="light"] .stFileUploader button { background: #007a7a !important; color: #eaf6f6 !important; border-color: #007a7a !important; }
+[data-theme="light"] .stFileUploader button { background: #007a7a !important; color: #ffffff !important; border-color: #007a7a !important; font-weight: 700 !important; }
 [data-theme="light"] .stFileUploader label { color: #007a7a !important; }
 [data-theme="light"] .stTextArea textarea { background: #e0f5f5 !important; border-color: #a0d8d8 !important; color: #007a7a !important; }
 [data-theme="light"] .score-card { background: #e0f5f5 !important; border-color: #a0d8d8 !important; }
@@ -258,6 +258,12 @@ section[data-testid="stSidebar"]{display:none;}
 .stFileUploader>div:hover{border-color:#00ffe7!important;}
 .stFileUploader label{color:#00ffe7!important;font-family:'Space Mono',monospace!important;font-size:10px!important;letter-spacing:0.12em!important;}
 .stFileUploader button{background:#00ffe7!important;color:#060608!important;border:none!important;border-radius:8px!important;font-family:'Space Mono',monospace!important;font-size:10px!important;font-weight:700!important;}
+.stFileUploader button p{color:#060608!important;font-weight:700!important;}
+[data-theme="light"] .stFileUploader button{background:#007a7a!important;color:#ffffff!important;}
+[data-theme="light"] .stFileUploader button p{color:#ffffff!important;font-weight:700!important;}
+[data-theme="light"] .stFileUploader button span{color:#ffffff!important;}
+[data-theme="light"] [data-testid="stFileUploaderDropzone"] button{background:#007a7a!important;color:#ffffff!important;}
+[data-theme="light"] [data-testid="stFileUploaderDropzone"] button *{color:#ffffff!important;}
 .stFileUploader p{color:#1a6060!important;}
 [data-theme="light"] .stFileUploader>div{background:#d0ecec!important;border-color:#80cccc!important;}
 [data-theme="light"] .stFileUploader>div:hover{border-color:#007a7a!important;}
@@ -267,7 +273,7 @@ section[data-testid="stSidebar"]{display:none;}
 [data-theme="light"] .stFileUploader button{background:#007a7a!important;color:#eaf6f6!important;}
 [data-theme="light"] [data-testid="stFileUploaderDropzone"]{background:#d0ecec!important;border-color:#80cccc!important;}
 [data-theme="light"] [data-testid="stFileUploaderDropzone"] *{color:#007a7a!important;}
-[data-theme="light"] [data-testid="stFileUploaderDropzone"] button{background:#007a7a!important;color:#eaf6f6!important;}
+[data-theme="light"] [data-testid="stFileUploaderDropzone"] button{background:#007a7a!important;color:#ffffff!important;font-weight:700!important;}
 [data-theme="light"] .stFileUploader section{background:#d0ecec!important;}
 .stTextArea textarea{background:#0d1a1a!important;border:1.5px solid #0a3a3a!important;border-radius:12px!important;color:#00ffe7!important;font-family:'Space Grotesk',sans-serif!important;font-size:13px!important;line-height:1.65!important;padding:12px 14px!important;resize:none!important;}
 .stTextArea textarea:focus{border-color:#00ffe7!important;box-shadow:0 0 0 3px rgba(0,255,231,0.08)!important;}
@@ -319,6 +325,11 @@ section[data-testid="stSidebar"]{display:none;}
 .kw-chip{font-family:'Space Mono',monospace;font-size:10px;padding:4px 12px;border-radius:100px;background:rgba(167,139,250,0.08);border:1px solid rgba(167,139,250,0.2);color:#a78bfa;margin:3px;}
 .resume-stat{display:inline-block;font-family:'Space Mono',monospace;font-size:10px;color:#00ffe7;background:rgba(0,255,200,0.06);border:1px solid rgba(0,255,200,0.15);padding:5px 14px;border-radius:8px;margin-right:8px;margin-bottom:6px;}
 .error-box{background:rgba(248,113,113,0.08);border:1px solid rgba(248,113,113,0.25);border-radius:14px;padding:18px 20px;color:#f87171;font-family:'Space Grotesk',sans-serif;font-size:13px;line-height:1.6;margin-top:14px;}
+[data-theme="light"] button[data-testid="baseButton-secondary"]{background:#007a7a!important;color:#ffffff!important;font-weight:700!important;}
+[data-theme="light"] .stFileUploader button[kind="secondary"]{background:#007a7a!important;color:#ffffff!important;}
+[data-theme="light"] small{color:#007a7a!important;}
+[data-theme="light"] .stFileUploader span{color:#007a7a!important;}
+[data-theme="light"] .uploadedFileName{color:#007a7a!important;}
 .stWarning{background:#fff3cd!important;border:1.5px solid #e0a800!important;border-radius:12px!important;}
 .stWarning *{color:#7a4800!important;font-family:'Space Grotesk',sans-serif!important;font-size:14px!important;font-weight:600!important;opacity:1!important;}
 div[data-testid="stAlert"]{background:#fff3cd!important;border:1.5px solid #e0a800!important;border-radius:12px!important;}
